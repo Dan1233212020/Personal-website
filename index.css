@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.herobanner {
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 10px;
+  position:relative;
+  padding-bottom: 80px;
+  background-size: cover;
+}
+  
+.ResumeButton {
+  width: 200px;
+  height: 55px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+}
+
+div {
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 10px;  
+}
+
+h1 {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.NameTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+/* media query */
+@media (max-width: 800px) {
+    .NameTitle {
+      color: red;
+      font-size: 40px;
+    }
+    .AcademicTitle {
+        color: blue;
+    }
+  }
+
+.AcademicTitle {
+  text-align: center;
+}
+
+p  {
+  top: 350px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+button {
+   text-align: center;
+  position: absolute;
+  right: 42%;
+  top: 700px;
+}
+
+.navigationlinks {
+  color: rgb(187,200,221);
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  margin: 10px 20px 10px 20px;
+  font-size: 20px;
+
+}
+
+.navigationlinks:hover {
+  color: rgb(255,255,255);
+}
+
+.ProfilePictureContainer {
+  height: 200px;
+  width: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("./Assets/profilepic.webp");
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -200px;
+  border: 10px solid rgb(238, 236, 236);
+  background-size: cover;
+}
+
+.herobannercontent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.herobannerbackground {
+    background-image: url("./Assets/HeroBackgroundImage.jpg");
+    background-size: cover;
+}
