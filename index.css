@@ -5,9 +5,7 @@ body {
 .herobanner {
   background-repeat: no-repeat;
   height: 400px;
-  padding: 10px;
   position:relative;
-  padding-bottom: 80px;
   background-size: cover;
 }
   
@@ -18,12 +16,6 @@ body {
   font-weight: bold;
   border-radius: 5px;
   border: 0;
-}
-
-div {
-  background-repeat: no-repeat;
-  height: 600px;
-  padding: 10px;  
 }
 
 h1 {
@@ -88,7 +80,7 @@ button {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  bottom: -200px;
+  bottom: -160px;
   border: 10px solid rgb(238, 236, 236);
   background-size: cover;
 }
@@ -104,4 +96,5 @@ button {
 .herobannerbackground {
     background-image: url("./Assets/HeroBackgroundImage.jpg");
     background-size: cover;
+    height: 100%;
 }
