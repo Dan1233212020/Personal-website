@@ -133,7 +133,7 @@ button {
     height: 100%;
     backdrop-filter: blur(10px);
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .herobannercontent {
@@ -178,6 +178,6 @@ button {
 .SkillSummaryBox {
   width: 200px;
   height: 250px;
-  background-color: blue;
+  background-color:#008aff33;
   text-align: center;
 }
