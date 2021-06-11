@@ -21,12 +21,16 @@ body {
 }
   
 .ResumeButton {
-  width: 200px;
-  height: 55px;
-  text-transform: uppercase;
   font-weight: bold;
   border-radius: 5px;
   border: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ResumeButton.Right {
+  text-align: right;
+  padding-right: 200px;
 }
 
 h1 {
