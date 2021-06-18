@@ -1,37 +1,6 @@
-body {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-:root {
-      --LandingBox-height: 400px;
-    }
 
-.LandingBox {
-    background-repeat: no-repeat;
-    height: var( --herobanner-height);
-    position:relative;
-    background-size: cover;
-    margin-bottom: 200px;
-    }
-
-  .herobannerbackground {
+.herobannerbackground {
     background-image: url("./src/BkrndImage.jpg");
-  }
-
-  .BackgroundImage {
-    
-  }
-
-  .navigationlinks {
-
-  }
-
-  .SelfImage {
-
-  }
-
-  .MyPets {
-
   }
 
   .PetsButton {
