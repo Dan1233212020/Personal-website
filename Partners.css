@@ -15,7 +15,36 @@ body {
     }
 
   .LandingBackground {
-    background-image: url("./Assets/BkrndImage.jpeg");
+    background-image: url("./src/BkrndImage.jpg");
     background-size: cover;
     height: 100%;
+  }
+
+  .BackgroundImage {
+    
+  }
+
+  .navigationlinks {
+
+  }
+
+  .SelfImage {
+
+  }
+
+  .MyPets {
+    
+  }
+
+  .PetsButton {
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .PetsButton.Right {
+    text-align: right; 
+    padding-right: 200px;
   }
