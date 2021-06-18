@@ -14,10 +14,8 @@ body {
     margin-bottom: 200px;
     }
 
-  .LandingBackground {
+  .herobannerbackground {
     background-image: url("./src/BkrndImage.jpg");
-    background-size: cover;
-    height: 100%;
   }
 
   .BackgroundImage {
