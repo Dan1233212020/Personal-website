@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+:root {
+      --LandingBox-height: 400px;
+    }
+
+.LandingBox {
+    background-repeat: no-repeat;
+    height: var( --herobanner-height);
+    position:relative;
+    background-size: cover;
+    margin-bottom: 200px;
+    }
+
+  .LandingBackground {
+    background-image: url("./Assets/BkrndImage.jpeg");
+    background-size: cover;
+    height: 100%;
+  }
