@@ -23,3 +23,33 @@
     font-size: 35px;
     position: relative;
   }
+
+  .MyPets  img {
+    height: 500px;
+  }
+
+  .navigationlinks {
+    color:blueviolet;
+    font-size: 30px;
+  
+  }
+
+  .NameTitle {
+    color: darkmagenta;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-style: italic;
+    font-variant-caps: all-small-caps;
+  }
+
+  .Bio.one {
+    color: coral;
+  }
+
+  .Bio.two {
+    color: cyan;
+  }
+
+  .Bio.three {
+    color: teal;
+  }
