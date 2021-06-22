@@ -53,3 +53,11 @@
   .Bio.three {
     color: teal;
   }
+
+  .MyPets {
+    text-align: center;
+  }
+
+  .MyPets img:hover {
+    outline: 30px ridge green;
+}
