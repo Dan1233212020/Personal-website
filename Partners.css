@@ -61,3 +61,15 @@
   .MyPets img:hover {
     outline: 30px ridge green;
 }
+
+.BiographyDescription {
+  padding-bottom: 100px;
+}
+
+#NameForm {
+  margin-inline-start: 20px;
+}
+
+.herobanner {
+  margin-bottom: 0px;
+}

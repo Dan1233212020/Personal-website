@@ -11,6 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4c53beeb84.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M9B88EBPZS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M9B88EBPZS');
+    </script>
+
 </head>
 
 <body>
@@ -25,11 +35,15 @@
         <div class="SelfImage"></div>
     </div>
 
-    
+    <form id="NameForm">
+        <label for="name">Please Type Your Name:</label>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="20" size="25">
+    </form>
 
     <section>
         <h1 id="MYEDUCATION" class="Bio one">MY EDUCATION</h1>
-        <p class="BiographyDescription">I am a double major in both Psychology & Business with a minor in History at CSUF.
+        <p class="BiographyDescription">I am a double major in both Psychology & Business with a minor in History at
+            CSUF.
             As a student at CSUF I have been involved in multiple positions of student life & leadership. While at CSUF
             I met my partner <a href="index.html" target="_blank">Daniel The Amazing"</a> who's name says it all!!!
         </p>
@@ -37,8 +51,10 @@
 
     <section>
         <h2 id="MyPets" class="Bio two">My Pets</h2>
-        <p class="BiographyDescription">I have 2  <a href="./Assets/Pets.jpeg">adorable pet's</a> that I love dearly. I have had 
-            them both since they were babies and they are both like brothers. My dog <a href="./Assets/Toby.jpeg">Toby</a> has 
+        <p class="BiographyDescription">I have 2 <a href="./Assets/Pets.jpeg">adorable pet's</a> that I love dearly. I
+            have had
+            them both since they were babies and they are both like brothers. My dog <a
+                href="./Assets/Toby.jpeg">Toby</a> has
             the personality of C3PO, while my cat <a href="./Assets/Jacob.jpeg">Jacob</a> has the personality of R2_D2.
             Toby gets his food from <a href="https://www.Petco.com" target="_blank">PETCO</a>
         </p>
@@ -46,7 +62,7 @@
             <img src="Assets/Toby.jpeg"></img>
             <video controls width="500">
                 <source src="Assets/MeTobsJacob.MP4" type="video/mp4">
-            
+
                 Sorry, your browser doesn't support embedded videos.
             </video>
             <img src="Assets/Jacob.jpeg"></img>
@@ -55,10 +71,12 @@
 
     <section>
         <h1 id="Favs" class="Bio three">MY TOP FAV'S</h1>
-        <p class="BiographyDescription">Although I love many things like the beach, cooking, going on walks and riding my bike.
+        <p class="BiographyDescription">Although I love many things like the beach, cooking, going on walks and riding
+            my bike.
             Here are my top favorites of all time; #1 thai food #2 Spending time with my family #3 Thai food!!!
         </p>
     </section>
-
+    <script src="Partners.js"></script>
 </body>
+
 </html>
