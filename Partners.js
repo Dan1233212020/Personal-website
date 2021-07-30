@@ -7,7 +7,7 @@ nameForm.addEventListener("submit", event => {
     const userName = nameForm.elements.name.value.trim();
     if (userName === 'Daniel' || userName === 'daniel') {
         window.alert('Hey that\'s me!'); 
-    } else if (userName === 'Jacky' || userName === 'jacky' || userName === 'Jacqueline' || userName === 'Jacqueline') {
+    } else if (userName === 'Jacky' || userName === 'jacky' || userName === 'Jacqueline' || userName === 'jacqueline') {
         window.alert('Hi gorgeous!'); 
     } else {
         window.alert("Thank you for visiting my webpage " + userName)
