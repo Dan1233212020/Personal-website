@@ -26,6 +26,11 @@
 
   .MyPets  img {
     height: 500px;
+      background-size: contain;
+      border-top-right-radius: 100px;
+      border-top-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+      border-bottom-left-radius: 100px;
   }
 
   .navigationlinks {
